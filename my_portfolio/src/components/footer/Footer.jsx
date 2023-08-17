@@ -47,7 +47,7 @@ const Footer = () => {
             className="box font-medium text-black  flex items-center justify-center flex-col"
           >
             <SiGmail className=" text-black text-3xl hover:scale-125 cursor-pointer" />
-            <p>Instagram</p>
+            <p>Mail</p>
           </a>
         </div>
         <div className="sm:text-[12px]">
