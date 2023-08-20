@@ -98,7 +98,7 @@ const Hero = () => {
             <img
             data-aos="fade-up"
               className=" h-[90%] w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src=''
+              src='https://cdn.discordapp.com/attachments/853242550243557408/1142878629441835158/Portfolio.jpg'
               
               alt="pic"
             />
