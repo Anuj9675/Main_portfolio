@@ -98,7 +98,7 @@ const Hero = () => {
             <img
             data-aos="fade-up"
               className=" h-[90%] w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src=''
+              src='https://i0.wp.com/curiositygym.com/wp-content/uploads/2022/05/portfolio1.jpg?fit=1024%2C576&ssl=1'
               
               alt="pic"
             />
