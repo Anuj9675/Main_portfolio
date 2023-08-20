@@ -5,7 +5,7 @@ import SkillBox from "../../chip/SkillBox";
 
 
 import {
-  SiHtml5, SiReact, SiTailwindcss, SiJavascript
+  SiHtml5, SiReact, SiTailwindcss, SiJavascript, SiCss3, SiGithub, 
 } from "react-icons/si";
 
 const Skills = ({ darkMode }) => {
@@ -43,10 +43,10 @@ const Skills = ({ darkMode }) => {
                 skill={"HTML"}
               />
               <SkillBox
-                logo={<SiTailwindcss />}
+                logo={<SiCss3 />}
                 black={"white"}
                 white={"black"}
-                skill={"TAILWINDCSS"}
+                skill={"CSS"}
               />
             </div>
             <div className="last2 flex flex-col gap-10">
@@ -65,9 +65,22 @@ const Skills = ({ darkMode }) => {
                 white={"white"}
                 skill={"JAVA SCRIPT"}
               />
-              
             </div>
+            <div className="first2 flex flex-col gap-10">
+              <SkillBox
+                logo={<SiGithub/>}
+                black={"white"}
+                white={"black"}
+                skill={"GitHub"}
+              />
+              <SkillBox
+                logo={<SiTailwindcss />}
+                black={"white"}
+                white={"black"}
+                skill={"Tailwindcss"}
+              />
           </div>
+        </div>
         </div>
 
   );
