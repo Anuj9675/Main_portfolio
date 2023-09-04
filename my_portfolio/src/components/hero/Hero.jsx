@@ -97,8 +97,8 @@ const Hero = () => {
           <div className="relative h-[88%] w-fit flex items-center sm:items-end">
             <img
             data-aos="fade-up"
-              className=" h-[90%] w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src='https://cdn.discordapp.com/attachments/853242550243557408/1142878629441835158/Portfolio.jpg'
+              className=" h-[90%] w-full object-cover md:h-[95%] md:m-auto sm:m-0 rounded-full"
+              src='https://cdn.discordapp.com/attachments/853242550243557408/1148272002348617888/Portfolio_3.jpg'
               
               alt="pic"
             />
