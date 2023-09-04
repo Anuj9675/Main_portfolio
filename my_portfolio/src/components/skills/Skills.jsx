@@ -28,14 +28,14 @@ const Skills = ({ darkMode }) => {
             >
               Here are my skills.
             </p>
-            
+
             
               </div>
             </div>
           </div>
           
-          <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
-            <div className="first2 flex flex-col gap-10">
+          <div className="flex p-5 gap-4 justify-center">
+            <div className="flex flex-col gap-4">
               <SkillBox
                 logo={<SiHtml5/>}
                 black={"white"}
@@ -49,7 +49,7 @@ const Skills = ({ darkMode }) => {
                 skill={"CSS"}
               />
             </div>
-            <div className="last2 flex flex-col gap-10">
+            <div className="flex flex-col gap-4">
               <SkillBox
                 logo={<SiReact />}
                 black={"black"}
@@ -66,7 +66,7 @@ const Skills = ({ darkMode }) => {
                 skill={"JAVA SCRIPT"}
               />
             </div>
-            <div className="first2 flex flex-col gap-10">
+            <div className="flex flex-col gap-4">
               <SkillBox
                 logo={<SiGithub/>}
                 black={"white"}
