@@ -15,19 +15,19 @@ const WorkCard = () => {
           <div
             data-aos="zoom-in"
             key={data.id}
-            className="flex flex-col justify-center items-center gap-4"
+            className="flex flex-col justify-center items-center gap-6"
           >
             <POPUP className="img-content relative">
-              <div className="h-[280px] w-[380px] hover:scale-125 transition duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto ">
+              <div className="h-[280px] w-[380px] hover:scale-15 transition duration-500 cursor-pointer shadow-md rounded-md  sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto ">
                 <img
                   src={data.img}
                   alt={data.title}
-                  className=" object-fit w-full h-full hover:scale-125 transition duration-500 cursor-pointer"
+                  className="object-fit w-full h-full hover:scale-125 transition duration-500 cursor-pointer"
                 />
               </div>
 
               <div
-                className={` popup w-full  h-[280px] shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] p-4`}
+                className={`popup w-full  h-[280px] shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] p-4`}
               >
                 <p className=" text-gray-900 text-base leading-[1.4] text-justify w-[90%]">
                   {data.desc}
