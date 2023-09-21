@@ -11,10 +11,10 @@ export const data = [
   },
   {
     id: 2,
-    img: 'https://cdn.discordapp.com/attachments/853242550243557408/1141268030819668009/IMG2.png',
-    title: "E-Commerce",
-    link: "",
-    git: "",
+    img: 'https://cdn.discordapp.com/attachments/853242550243557408/1153955038260121610/Screenshot_91.png',
+    title: "Todo App",
+    link: "https://todo-app-o.vercel.app/",
+    git: "https://github.com/Anuj9675/Todo_App",
   },
   {
     id: 3,
