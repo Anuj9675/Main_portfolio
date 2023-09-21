@@ -65,4 +65,34 @@ const WorkCard = () => {
 
 export default WorkCard;
 
-const POPUP = styled.div;
+const POPUP = styled.div`
+  position: relative;
+  img {
+    &:hover {
+      transform: scaleX(2);
+    }
+  }
+  .popup {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    margin: auto;
+    transition: 0.5s ease;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .icon {
+    color: #fff !important;
+  }
+  &:hover .popup {
+    opacity: 1;
+    color: #fff;
+  }
+`;
