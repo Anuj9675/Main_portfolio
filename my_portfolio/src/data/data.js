@@ -2,14 +2,6 @@
 
 export const data = [
   {
-    id: 1,
-    img: 'https://cdn.discordapp.com/attachments/853242550243557408/1141267670222782585/IMG.jpg',
-    title: "SaaS AI Platform",
-    desc: "",
-    link: "",
-    git: "",
-  },
-  {
     id: 2,
     img: 'https://cdn.discordapp.com/attachments/853242550243557408/1153955038260121610/Screenshot_91.png',
     title: "Todo App",
