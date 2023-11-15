@@ -5,8 +5,9 @@ import SkillBox from "../../chip/SkillBox";
 
 
 import {
-  SiHtml5, SiReact, SiTailwindcss, SiJavascript, SiCss3, SiGithub, 
+  SiHtml5, SiReact, SiTailwindcss, SiJavascript, SiCss3, SiGithub, SiPostman, 
 } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
 const Skills = ({ darkMode }) => {
   return (
@@ -34,7 +35,7 @@ const Skills = ({ darkMode }) => {
             </div>
           </div>
           
-          <div className="flex p-5 gap-4 justify-center">
+          <div className="flex justify-center p-5 gap-4 ">
             <div className="flex flex-col gap-4">
               <SkillBox
                 logo={<SiHtml5/>}
@@ -57,10 +58,7 @@ const Skills = ({ darkMode }) => {
                 skill={"REACT"}
               />
               <SkillBox
-                className=""
-                logo={
-                  <SiJavascript/>
-                }
+                logo={<SiJavascript/>}
                 black={"black"}
                 white={"white"}
                 skill={"JAVA SCRIPT"}
@@ -80,6 +78,20 @@ const Skills = ({ darkMode }) => {
                 skill={"Tailwindcss"}
               />
           </div>
+          <div className="flex flex-col gap-4">
+              <SkillBox
+                logo={<TbBrandNextjs />}
+                black={"black"}
+                white={"white"}
+                skill={"NextJS"}
+              />
+              <SkillBox
+                logo={<SiPostman />}
+                black={"black"}
+                white={"white"}
+                skill={"Postman"}
+              />
+            </div>
         </div>
         </div>
 
