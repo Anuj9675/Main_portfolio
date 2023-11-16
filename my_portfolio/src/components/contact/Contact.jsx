@@ -20,7 +20,7 @@ const Contact = () => {
         <div className="left w-[70%] flex-1 flex items-center justify-center sm:flex-col sm:w-full">
           <div className="flex-3 w-1/2 gap-3 flex items-end justify-end  flex-col sm:w-3/4">
             <div 
-            data-aos="zoom-in"
+            
             >
               <h1 className="text-5xl font-bold sm:text-3xl">Let's chat.</h1>
               <h3 className="text-xl sm:text-lg">
@@ -31,7 +31,7 @@ const Contact = () => {
           <div className=" flex p-5 items-center justify-center ">
             <button
               
-              data-aos="zoom-in"
+              
               
               className= " text-yellow-500 font-extrabold text-3xl p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] "
             >
@@ -42,7 +42,7 @@ const Contact = () => {
         <div className="right flex-1">
           <form
             
-            data-aos="zoom-in"
+            
             
             className="flex justify-center items-center flex-col gap-5 w-[70%] md:w-[100%] sm:w-[95%] mx-auto"
             action="mailto:xyz@gmail.com"

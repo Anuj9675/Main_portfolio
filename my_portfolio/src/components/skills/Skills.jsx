@@ -14,7 +14,7 @@ const Skills = ({ darkMode }) => {
     <div id="skills">
       <div className=" container m-auto  mt-16">
         
-        <div data-aos="fade-up" className="relative mb-5">
+        <div  className="relative mb-5">
           <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
             My Skills
           </h3>
@@ -24,12 +24,11 @@ const Skills = ({ darkMode }) => {
         <div className="flex md:flex-col ">
           <div className="left flex-1 w-full">
             <p
-              data-aos="fade-up"
+
               className=" text-gray-700 font-medium w-[100%]"
             >
               Here are my skills.
             </p>
-
             
               </div>
             </div>
