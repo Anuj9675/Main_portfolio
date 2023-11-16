@@ -50,12 +50,12 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
 
   return (
     <div
-      className={`w-full mx-auto  fixed top-0 py-5 sm:py-4 z-30 ${
+      className={`w-full mx-auto fixed top-0 py-5 sm:py-4 z-30 ${
         scrollPosition > 0 ? `bg-white shadow-md` : "bg-transparent"
       } `}
     >
       <nav className=" container m-auto flex items-center justify-between">
-        <div data-aos="fade-down" className="logo">
+        <div  className="logo">
           <Link
             onClick={() => window.scrollTo(0, 0)}
             to="/"
@@ -65,7 +65,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
           </Link>
         </div>
         <div
-          data-aos="fade-down"
+          
           className="nav-items flex items-center space-x-11"
         >
           
@@ -79,14 +79,14 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
           <ul
             className={`flex items-center space-x-11 ${
               !isOpen ? "md:flex" : "md:right-[0%]"
-            } md:flex-col md:absolute m-auto md:top-0 md:right-[-100%] md:w-[78%] md:h-screen md:bg-white `}
+            } md:flex-col md:absolute m-auto md:top-0 md:right-[-100%] md:w-fit md:h-screen md:bg-white `}
           >
             
             <button
               onClick={toggleNav}
               className={`text-3xl hidden md:block relative right-0 top-4 container mx-auto`}
             >
-              <RxCross2 size={25} />
+              <RxCross2 size={20} />
             </button>
             {navItems.map((item) => (
               <li
