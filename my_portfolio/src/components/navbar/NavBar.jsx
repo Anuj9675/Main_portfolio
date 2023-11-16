@@ -66,7 +66,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
         </div>
         <div
           
-          className="nav-items flex items-center space-x-10"
+          className="nav-items flex items-center space-x-11"
         >
           
           <button
@@ -77,9 +77,9 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
           </button>
 
           <ul
-            className={`flex items-center space-x-10 ${
+            className={`flex items-center space-x-11 ${
               !isOpen ? "md:flex" : "md:right-[0%]"
-            } md:flex-col md:absolute m-auto md:top-0 md:right-[-100%] md:w-full md:h-screen md:bg-white `}
+            } md:flex-col md:absolute m-auto md:top-0 md:right-[-100%] md:w-fit md:h-screen md:bg-white `}
           >
             
             <button
@@ -96,8 +96,8 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
                 <a
                   onClick={() => toggleNav(item.name)}
                   href={`#${item.name}`}
-                  className={`uppercase cursor-pointer text-black hover:text-yellow-600 font-bold ${
-                    item.name === activeIndex ? "text-yellow-600" : ""
+                  className={`uppercase cursor-pointer  text-black hover:text-yellow-600 font-bold ${
+                    item.name === activeIndex ? "text-yellow-600" : "text-black"
                   }`}
                 >
                   {item.name}
