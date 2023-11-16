@@ -66,7 +66,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
         </div>
         <div
           
-          className="nav-items flex items-center space-x-11"
+          className="nav-items flex items-center space-x-10"
         >
           
           <button
@@ -79,7 +79,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
           <ul
             className={`flex items-center space-x-10 ${
               !isOpen ? "md:flex" : "md:right-[0%]"
-            } md:flex-col md:absolute m-auto md:top-0 md:right-[-100%] md:w-fit md:h-screen md:bg-white `}
+            } md:flex-col md:absolute m-auto md:top-0 md:right-[-100%] md:w-full md:h-screen md:bg-white `}
           >
             
             <button
