@@ -16,6 +16,6 @@ export const data = [
     desc: "I created a dummy charity website as my internship task with The Sparks Foundation which shows payment Gateway Integration.",
     link: "https://animalwelfare.netlify.app/",
     git: "https://github.com/Anuj9675/Animal_Welfare.git",
-  }
-  
+  },
+ 
 ];
