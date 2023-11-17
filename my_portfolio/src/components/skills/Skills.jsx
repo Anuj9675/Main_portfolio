@@ -33,65 +33,66 @@ const Skills = ({ darkMode }) => {
               </div>
             </div>
           </div>
-          
-          <div className="flex justify-center p-5 gap-4 ">
-            <div className="flex flex-col gap-4">
-              <SkillBox
-                logo={<SiHtml5/>}
-                black={"white"}
-                white={"black"}
-                skill={"HTML"}
-              />
-              <SkillBox
-                logo={<SiCss3 />}
-                black={"white"}
-                white={"black"}
-                skill={"CSS"}
-              />
-            </div>
-            <div className="flex flex-col gap-4">
-              <SkillBox
-                logo={<SiReact />}
-                black={"black"}
-                white={"white"}
-                skill={"REACT"}
-              />
-              <SkillBox
-                logo={<SiJavascript/>}
-                black={"black"}
-                white={"white"}
-                skill={"JAVA SCRIPT"}
-              />
-            </div>
-            <div className="flex flex-col gap-4">
-              <SkillBox
-                logo={<SiGithub/>}
-                black={"white"}
-                white={"black"}
-                skill={"GitHub"}
-              />
-              <SkillBox
-                logo={<SiTailwindcss />}
-                black={"white"}
-                white={"black"}
-                skill={"Tailwindcss"}
-              />
-          </div>
-          <div className="flex flex-col gap-4">
-              <SkillBox
-                logo={<TbBrandNextjs />}
-                black={"black"}
-                white={"white"}
-                skill={"NextJS"}
-              />
-              <SkillBox
-                logo={<SiPostman />}
-                black={"black"}
-                white={"white"}
-                skill={"Postman"}
-              />
-            </div>
-        </div>
+
+          <div className="flex justify-center md:flex-row md:flex-wrap p-5 gap-4">
+    <div className="flex flex-col gap-4">
+      <SkillBox
+        logo={<SiHtml5/>}
+        black={"white"}
+        white={"black"}
+        skill={"HTML"}
+      />
+      <SkillBox
+        logo={<SiCss3 />}
+        black={"white"}
+        white={"black"}
+        skill={"CSS"}
+      />
+    </div>
+    <div className="flex flex-col gap-4">
+      <SkillBox
+        logo={<SiReact />}
+        black={"black"}
+        white={"white"}
+        skill={"REACT"}
+      />
+      <SkillBox
+        logo={<SiJavascript/>}
+        black={"black"}
+        white={"white"}
+        skill={"JAVA SCRIPT"}
+      />
+    </div>
+    <div className="flex flex-col gap-4">
+      <SkillBox
+        logo={<SiGithub/>}
+        black={"white"}
+        white={"black"}
+        skill={"GitHub"}
+      />
+      <SkillBox
+        logo={<SiTailwindcss />}
+        black={"white"}
+        white={"black"}
+        skill={"Tailwindcss"}
+      />
+    </div>
+    <div className="flex flex-col gap-4">
+      <SkillBox
+        logo={<TbBrandNextjs />}
+        black={"black"}
+        white={"white"}
+        skill={"NextJS"}
+      />
+      <SkillBox
+        logo={<SiPostman />}
+        black={"black"}
+        white={"white"}
+        skill={"Postman"}
+      />
+    </div>
+  </div>
+
         </div>
 
   );
