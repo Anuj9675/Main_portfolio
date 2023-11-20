@@ -1,9 +1,5 @@
 import React from "react";
 import SkillBox from "../../chip/SkillBox";
-
-
-
-
 import {
   SiHtml5, SiReact, SiTailwindcss, SiJavascript, SiCss3, SiGithub, SiPostman, 
 } from "react-icons/si";
@@ -15,7 +11,7 @@ const Skills = ({ darkMode }) => {
       <div className=" container m-auto  mt-16">
         
         <div  className="relative mb-5">
-          <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
+          <h3 className=" text-5xl font-black text-gray-400 sm:text-2xl">
             My Skills
           </h3>
           <span className="h-[1.1px] right-0 absolute w-[90%] bg-gray-300 block"></span>

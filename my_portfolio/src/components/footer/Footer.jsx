@@ -11,17 +11,8 @@ const Footer = () => {
         <h2 
         data-aos="zoom-out"
          className=" font-bold text-5xl sm:text-3xl">Let's Talk</h2>
-        <div className=" flex items-center justify-center gap-8 sm:gap-5">
+        <div className=" flex items-center justify-center gap-6 sm:gap-4">
 
-          <a 
-          data-aos="fade-up" data-aos-duration="1000"
-
-            href="https://www.linkedin.com/in/anuj-upadhyay-a973b0238/"
-            className="box font-medium text-black   flex items-center justify-center flex-col"
-          >
-            <BsLinkedin className=" text-black text-3xl hover:scale-125 cursor-pointer" />
-            <p>LinkedIn</p>
-          </a>
           <a 
           data-aos="fade-up" data-aos-duration="1200"
 
@@ -32,16 +23,16 @@ const Footer = () => {
             <p>Github</p>
           </a>
           <a 
-          data-aos="fade-up" data-aos-duration="1400"
+          data-aos="fade-up" data-aos-duration="1000"
 
-            href="https://instagram.com/anuj.upadhyay_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
-            className="box font-medium text-black  flex items-center justify-center flex-col"
+            href="https://www.linkedin.com/in/anuj-upadhyay-a973b0238/"
+            className="box font-medium text-black   flex items-center justify-center flex-col"
           >
-            <RiInstagramFill className=" text-black text-3xl hover:scale-125 cursor-pointer" />
-            <p>Instagram</p>
+            <BsLinkedin className=" text-black text-3xl hover:scale-125 cursor-pointer" />
+            <p>LinkedIn</p>
           </a>
           <a 
-          data-aos="fade-up" data-aos-duration="1600"
+          data-aos="fade-up" data-aos-duration="1400"
 
             href="mailto: anujupadhyay6265@gmail.com"
             className="box font-medium text-black  flex items-center justify-center flex-col"
