@@ -5,7 +5,7 @@ import Hero from "../components/hero/Hero";
 import NavBar from "../components/navbar/NavBar";
 import Skills from "../components/skills/Skills";
 import Work from "../components/work/Work";
-import About from "../components/about/About";
+import About from "../components/About/About";
 
 const Home = () => {
   const [darkMode, setDarkMode] = useState(false);
