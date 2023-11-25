@@ -32,7 +32,7 @@ const WorkCard = () => {
                     <p className="text-gray-800 text-5xl md:text-3xl font-medium mb-4">
                       {item.title}
                     </p>
-                    <p className="text-gray-900 text-lg  mb-5">
+                    <p className="text-gray-900 text-lg leading-[1.6] mb-5">
                       {item.desc}
                     </p>
                     <div className="flex flex-col md:flex-row md:justify-between">
