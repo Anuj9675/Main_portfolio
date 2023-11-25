@@ -13,21 +13,19 @@ const WorkCard = () => {
         return (
           <div
             key={item.id}
-            className="flex gap-24 items-center flex-col md:flex-row"
-            style={{
-              flexDirection: 'row-reverse', // Reverses order for mobile view
-              '@media (max-width: 768px)': {
-                flexDirection: 'column', // Switches to column layout on smaller screens
-              },
-            }}
+            className="flex flex-col md:flex-row items-center gap-8 md:gap-24"
           >
-            <div className="w-full md:w-[50%] flex justify-center">
+            <div className="w-full md:w-1/2 flex justify-center">
               <div className="relative rounded-md overflow-hidden shadow-md">
-                <img src={item.img} alt={item.title} />
+                <img
+                  src={item.img}
+                  alt={item.title}
+                  className="w-full h-auto md:max-w-full"
+                />
               </div>
             </div>
 
-            <div className="w-full md:w-[50%] flex justify-center">
+            <div className="w-full md:w-1/2 flex justify-center">
               <div className="flex-1">
                 <div className="flex flex-col justify-between h-full">
                   <div>
