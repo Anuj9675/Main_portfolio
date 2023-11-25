@@ -14,7 +14,7 @@ const Work = () => {
         </p>
       </div>
       <div className="card-wrapper w-fit sm:w-full ">
-        <div className="card-box grid gap-48 md:gap-4 w-full border border-gray-200">
+        <div className="card-box grid gap-48 md:gap-4 w-full">
           <WorkCard />
         </div>
       </div>
