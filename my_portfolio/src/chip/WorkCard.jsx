@@ -13,14 +13,9 @@ const WorkCard = () => {
         return (
           <div
             key={item.id}
-            className="flex gap-24 items-center"
-            style={{
-              '@media (max-width: 768px)': {
-                flexDirection: 'column', // Switches to column layout on smaller screens
-              },
-            }}
+            className="flex gap-24 items-center flex-col md:flex-row"
           >
-            <div className="w-full md:w-[50%] flex justify-center">
+            <div className="flex justify-center w-full md:w-[50%] mb-8 md:mb-0">
               <div className="relative rounded-md overflow-hidden shadow-md">
                 <img src={item.img} alt={item.title} />
               </div>
