@@ -15,7 +15,7 @@ const WorkCard = () => {
             key={item.id}
             className="flex gap-24 items-center flex-col md:flex-row"
           >
-            <div className="flex justify-center w-full mb-8 md:mb-0">
+            <div className="flex justify-center  mb-8 md:mb-0">
               <div className="relative rounded-md overflow-hidden shadow-md">
                 <img src={item.img} alt={item.title} />
               </div>
