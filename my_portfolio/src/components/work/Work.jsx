@@ -13,8 +13,8 @@ const Work = () => {
           Here are some of my works.
         </p>
       </div>
-      <div className="card-wrapper w-fit sm:w-full border border-gray-100">
-        <div className="card-box grid gap-48 md:gap-4 w-full">
+      <div className="card-wrapper w-fit sm:w-full ">
+        <div className="card-box grid gap-48 md:gap-4 w-full border border-gray-100">
           <WorkCard />
         </div>
       </div>
