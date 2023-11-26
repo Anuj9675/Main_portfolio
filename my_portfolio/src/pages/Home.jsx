@@ -8,19 +8,16 @@ import Work from "../components/work/Work";
 import About from "../components/About/About";
 
 const Home = () => {
-  const [darkMode, setDarkMode] = useState(false);
-  function toggleDarkMode() {
-    setDarkMode((prevDarkMode) => !prevDarkMode);
-  }
+  
   return (
     <>
-      <NavBar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Hero darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <About darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
-      <Skills darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Work darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Contact darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Footer darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+      <NavBar />
+      <Hero />
+      <About />
+      <Skills  />
+      <Work  />
+      <Contact  />
+      <Footer />
     </>
   );
 };
