@@ -35,7 +35,7 @@ const Contact = () => {
             </button>
           </div>
         </div>
-        <div className="right flex-1 shadow-md">
+        <div className="right flex-1">
           <form
             
             className="flex justify-center items-center flex-col gap-5 w-[70%] md:w-[100%] sm:w-[95%] mx-auto"
