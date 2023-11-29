@@ -13,10 +13,10 @@ const WorkCard = () => {
         return (
           <div
             key={item.id}
-            className="flex flex-row md:flex-col items-center gap-24 md:gap-8 "
+            className="flex flex-row md:flex-col items-center gap-24 md:gap-8 relative "
           >
-            <div className="w-full flex justify-center gap-24 md:gap-8">
-              <div className="relative rounded-md overflow-hidden shadow-lg">
+            <div className="absolute bottom-0 left-0 w-full flex justify-center gap-24 md:gap-8">
+              <div className=" rounded-md overflow-hidden shadow-lg">
                 <img
                   src={item.img}
                   alt={item.title}
