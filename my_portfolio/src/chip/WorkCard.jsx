@@ -13,7 +13,7 @@ const WorkCard = () => {
         return (
           <div
             key={item.id}
-            className="flex flex-row md:flex-col items-center gap-24 md:gap-8 relative "
+            className="flex flex-row md:flex-col items-center gap-24 md:gap-10 relative "
           >
             <div className="absolute bottom-0 left-0 w-full flex justify-center gap-24 md:gap-8">
               <div className=" rounded-md overflow-hidden shadow-lg">
