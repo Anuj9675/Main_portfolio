@@ -15,26 +15,10 @@ const WorkCard = () => {
             key={item.id}
             className="flex flex-row md:flex-col items-center gap-24 md:gap-10"
           >
-            <div className="bottom-0 left-0 w-full flex justify-center gap-24 md:gap-8">
-              <div className=" rounded-md overflow-hidden shadow-lg">
-                <img
-                  src={item.img}
-                  alt={item.title}
-                  className="w-full h-auto md:max-w-full"
-                />
-              </div>
+            < <div>
+              <h1 className="text-2xl font-bold">{item.tittle}</h1>
+              <p>{item.desc}</p>
             </div>
-
-            <div className="w-full md:w-1/2 flex justify-center">
-              <div className="flex-1">
-                <div className="flex flex-col justify-between h-full">
-                  <div>
-                    <p className="text-gray-800 text-5xl md:text-3xl font-medium mb-4">
-                      {item.title}
-                    </p>
-                    <p className="text-gray-900 text-lg leading-[1.6] mb-5">
-                      {item.desc}
-                    </p>
                     <div className="flex flex-col md:flex-row md:justify-between">
                       <div className="flex gap-4">
                         <Link
