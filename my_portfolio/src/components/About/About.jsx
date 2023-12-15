@@ -15,7 +15,7 @@ const About = () => {
         <div className="flex md:flex-col ">
           <div className="left flex-1 w-full">
             <p
-
+            
               className=" text-gray-700 font-medium w-[100%]"
             >
               Myself.
