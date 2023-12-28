@@ -37,9 +37,9 @@ const Contact = () => {
         </div>
         <div className="right flex-1">
           <form
-            
+            method="POST"
+            action="https://getform.io/f/a9d0c43f-7d70-4e8d-9312-6bac1fb75353"
             className="flex justify-center items-center flex-col gap-5 w-[70%] md:w-[100%] sm:w-[95%] mx-auto"
-            action="mailto:anujupadhyay6265@gmail.com"
           >
             <input
               className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
