@@ -55,7 +55,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
       } `}
     >
       <nav className=" container m-auto flex items-center justify-between">
-        <div className="text-3xl font-bold">
+        <div className="text-5xl font-bold">
           Anuj.
         </div>
         
@@ -79,7 +79,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             
             <button
               onClick={toggleNav}
-              className={`text-3xl hidden md:block relative right-0 top-4 container`}
+              className={`text-4xl hidden md:block relative right-0 top-4 container`}
             >
               <RxCross2 size={20} />
             </button>
