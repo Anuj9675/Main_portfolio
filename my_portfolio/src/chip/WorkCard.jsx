@@ -22,9 +22,9 @@ const WorkCard = () => {
             </div>
 
             <div className="w-full md:w-[60%] max-w-[380px]">
-              <div className="flex flex-col justify-center h-full">
+              <div className="flex flex-col h-full">
                 <div>
-                  <p className="text-gray-800 text-5xl md:text-3xl font-medium mb-4">
+                  <p className="text-gray-800 text-5xl md:text-3xl font-bold mb-4">
                     {workData.title}
                   </p>
                   <p className="text-gray-900 text-lg leading-[1.6]">
