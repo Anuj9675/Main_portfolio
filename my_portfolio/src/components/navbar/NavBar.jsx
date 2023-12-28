@@ -54,7 +54,10 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
         scrollPosition > 0 ? `bg-white shadow-md` : "bg-transparent"
       } `}
     >
-      <nav className=" container m-auto flex items-center justify-evenly">
+      <nav className=" container m-auto flex items-center justify-between">
+        <div className="text-3xl font-bold">
+          Anuj.
+        </div>
         
         <div
           
@@ -65,13 +68,13 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             onClick={toggleNav}
             className="cursor-pointer text-3xl hidden md:block"
           >
-            <HiMenu size={30} />
+            <HiMenu size={20} />
           </button>
 
           <ul
             className={`flex items-center space-x-11 ${
               !isOpen ? "md:flex" : "md:right-[0%]"
-            } md:flex-col md:absolute m-auto md:top-0 md:right-[-100%] md:w-fit md:h-screen md:bg-white `}
+            } md:flex-col md:absolute m-auto md:top-0 md:right-[-50%] md:w-fit md:h-screen md:bg-white `}
           >
             
             <button
