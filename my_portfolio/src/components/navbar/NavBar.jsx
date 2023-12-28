@@ -84,7 +84,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             
             <button
               onClick={toggleNav}
-              className={`text-3xl hidden md:block relative right-0 top-4 container mx-auto`}
+              className={`text-3xl hidden md:block relative right-0 top-4 container`}
             >
               <RxCross2 size={20} />
             </button>
