@@ -55,7 +55,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
       } `}
     >
       <nav className=" container m-auto flex items-center justify-between">
-        <div className="text-5xl font-bold">
+        <div className="text-5xl  md:text-2xl font-bold">
           Anuj.
         </div>
         
@@ -64,12 +64,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
           className="nav-items flex items-center space-x-11"
         >
           
-          <button
-            onClick={toggleNav}
-            className="cursor-pointer text-3xl hidden md:block"
-          >
-            <HiMenu size={20} />
-          </button>
+          
 
           <ul
             className={`flex items-center space-x-11 ${
