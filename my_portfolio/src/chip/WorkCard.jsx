@@ -13,10 +13,16 @@ const WorkCard = () => {
         return (
           <div
             key={workData.id}
-            className="flex md:flex-col flex-row gap-72 md:gap-6 justify-evenly"
+            className="flex flex-row md:flex-col justify-center items-center gap-64 md:gap-4"
           >
-            <div className="flex-1 max-w-[380px]">
-              <div className="flex flex-col justify-between h-full">
+            <div className=" w-[40%] md:w-full">
+              <div className="relative rounded-md overflow-hidden shadow-md">
+                <img src={workData.img} alt={workData.title} className="w-full h-full object-cover" />
+              </div>
+            </div>
+
+            <div className="w-full md:w-[60%] max-w-[380px]">
+              <div className="flex flex-col justify-center h-full">
                 <div>
                   <p className="text-gray-800 text-5xl md:text-3xl font-medium mb-4">
                     {workData.title}
@@ -29,26 +35,20 @@ const WorkCard = () => {
                   <Link
                     to={workData.link}
                     target="_blank"
-                    className="rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium text-black"
+                    className="rounded-md shadow-md p-2 flex gap-2 items-center justify-center font-medium text-black"
                   >
-                    <RxExternalLink className="bg-white rounded-full border w-[35px] h-[35px] p-2" />
+                    <RxExternalLink className="bg-white rounded-full border w-6 h-6 p-1" />
                     <p>View</p>
                   </Link>
                   <Link
                     to={workData.git}
                     target="_blank"
-                    className="rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium text-black"
+                    className="rounded-md shadow-md p-2 flex gap-2 items-center justify-center font-medium text-black"
                   >
-                    <AiOutlineGithub className="bg-white rounded-full border w-[35px] h-[35px] p-2" />
+                    <AiOutlineGithub className="bg-white rounded-full border w-6 h-6 p-1" />
                     <p>Code</p>
                   </Link>
                 </div>
-              </div>
-            </div>
-
-            <div className="w-[40%]">
-              <div className="relative rounded-md overflow-hidden shadow-md">
-                <img src={workData.img} alt={workData.title} />
               </div>
             </div>
           </div>
